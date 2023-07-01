@@ -12,7 +12,7 @@ This tracker also includes auto-tracking functionality, which requires BizHawk/E
 
 The tracker pack is currently not available through EmoTracker's package manager, and thus needs to be installed manually using the following steps:
 
-1. Clone this repository or download it as a ZIP file and it in the `%USERPROFILE%\Documents\EmoTracker\packs` directory.
+1. Clone this repository or download it as a ZIP file and unzip it in the `%USERPROFILE%\Documents\EmoTracker\packs` directory.
 2. If EmoTracker was open during the first step: close and restart EmoTracker.
 3. Check to make sure that the tracker pack appears under `Settings -> Installed Packages -> Other`
 
