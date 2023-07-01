@@ -1,4 +1,4 @@
-# Official EmoTracker pack for the Golden Sun: The Lost Age Randomizer
+# Official EmoTracker pack for the Golden Sun: The Lost Age Randomiser
 
 This tracker for the [Golden Sun: The Lost Age randomiser](https://gs2randomiser.com) is intended for use with the [EmoTracker](https://emotracker.net) software by EmoSaru.
 
