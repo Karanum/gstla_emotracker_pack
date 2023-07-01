@@ -1,0 +1,109 @@
+{
+    "tracker_progression_compact": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "8,12",
+                "item_size": 50,
+                "rows": [
+                    [
+                        "briggs_battle",
+                        "piers",
+                        "gabomba_statue"
+                    ],
+                    [
+                        "lemurian_ship",
+                        "susa",
+                        "briggs_jailbreak"
+                    ],
+                    [
+                        "trial_road",
+                        "jupiter_lit",
+                        "reunion"
+                    ],
+                    [
+                        "cannon",
+                        "mars_lit",
+                        "doom_dragon"
+                    ]
+                ]
+            }
+        ]
+    },
+
+    "tracker_default": {
+        "type": "container",
+        "width": 512,
+        "height": 472,
+        "background": "#877857",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dropshadow": true,
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_items"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Psynergy",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_psynergy"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Summons & Djinn",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_summons_and_djinn"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "dropshadow": true,
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Progression",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_progression_compact"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

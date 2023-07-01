@@ -1,0 +1,86 @@
+[
+	{
+    "name": "Reunion",
+    "type": "toggle",
+    "img": "images/hosts/reunion.png",
+    "codes": "reunion",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Piers",
+    "type": "toggle",
+    "img": "images/hosts/piers.png",
+    "codes": "piers",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Lemurian Ship",
+    "type": "toggle",
+    "img": "images/hosts/lemurian_ship.png",
+    "codes": "lemurian_ship",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Dwarven Cannon",
+    "type": "toggle",
+    "img": "images/hosts/cannon.png",
+    "codes": "cannon",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Trial Road Cleared",
+    "type": "toggle",
+    "img": "images/hosts/moapa.png",
+    "codes": "trial_road",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Briggs Defeated",
+    "type": "toggle",
+    "img": "images/hosts/briggs.png",
+    "codes": "briggs_battle",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Briggs Escaped",
+    "type": "toggle",
+    "img": "images/hosts/briggs_neener.png",
+    "codes": "briggs_jailbreak",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Gabomba Statue Cleared",
+    "type": "toggle",
+    "img": "images/hosts/gabomba.png",
+    "codes": "gabomba_statue",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Jupiter Lighthouse Lit",
+    "type": "toggle",
+    "img": "images/hosts/jupiter_lit.png",
+    "codes": "jupiter_lit",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Serpent Defeated",
+    "type": "toggle",
+    "img": "images/hosts/serpent.png",
+    "codes": "susa",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Mars Lighthouse Heated",
+    "type": "toggle",
+    "img": "images/hosts/mars_lit.png",
+    "codes": "mars_lit",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Doom Dragon Defeated",
+    "type": "toggle",
+    "img": "images/hosts/doomy.png",
+    "codes": "doom_dragon",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  }
+]

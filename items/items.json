@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Parch",
+    "type": "toggle",
+    "img": "images/psynergy/Parch.png",
+    "codes": "parch"
+  },
+  {
+    "name": "Mind Read",
+    "type": "toggle",
+    "img": "images/psynergy/Mind_Read.png",
+    "codes": "mind_read"
+  },
+  {
+    "name": "Reveal",
+    "type": "toggle",
+    "img": "images/psynergy/Reveal.png",
+    "codes": "reveal"
+  },
+  {
+    "name": "Sand",
+    "type": "toggle",
+    "img": "images/psynergy/Sand.png",
+    "codes": "sand"
+  },
+  {
+    "name": "Growth",
+    "type": "toggle",
+    "img": "images/psynergy/Growth.png",
+    "codes": "growth"
+  },
+  {
+    "name": "Blaze",
+    "type": "toggle",
+    "img": "images/psynergy/Blaze.png",
+    "codes": "blaze"
+  },
+  {
+    "name": "Whirlwind",
+    "type": "toggle",
+    "img": "images/psynergy/Whirlwind.png",
+    "codes": "whirlwind"
+  },
+  {
+    "name": "Teleport",
+    "type": "toggle",
+    "img": "images/psynergy/Teleport.png",
+    "codes": "teleport"
+  },
+  {
+    "name": "Burst",
+    "type": "toggle",
+    "img": "images/psynergy/Burst.png",
+    "codes": "burst"
+  },
+  {
+    "name": "Lift",
+    "type": "toggle",
+    "img": "images/psynergy/Lift.png",
+    "codes": "lift"
+  },
+  {
+    "name": "Scoop",
+    "type": "toggle",
+    "img": "images/psynergy/Scoop.png",
+    "codes": "scoop"
+  },
+  {
+    "name": "Frost",
+    "type": "toggle",
+    "img": "images/psynergy/Frost.png",
+    "codes": "frost"
+  },
+  {
+    "name": "Grind",
+    "type": "toggle",
+    "img": "images/psynergy/Grind.png",
+    "codes": "grind"
+  },
+  {
+    "name": "Tremor",
+    "type": "toggle",
+    "img": "images/psynergy/Tremor.png",
+    "codes": "tremor"
+  },
+  {
+    "name": "Lash",
+    "type": "toggle",
+    "img": "images/psynergy/Lash.png",
+    "codes": "lash"
+  },
+  {
+    "name": "Carry",
+    "type": "toggle",
+    "img": "images/psynergy/Carry.png",
+    "codes": "carry"
+  },
+  {
+    "name": "Hover",
+    "type": "toggle",
+    "img": "images/psynergy/Hover.png",
+    "codes": "hover"
+  },
+  {
+    "name": "Pound",
+    "type": "toggle",
+    "img": "images/psynergy/Pound.png",
+    "codes": "pound"
+  },
+  {
+    "name": "Cyclone",
+    "type": "toggle",
+    "img": "images/psynergy/Cyclone.png",
+    "codes": "cyclone"
+  },
+  {
+    "name": "Force",
+    "type": "toggle",
+    "img": "images/psynergy/Force.png",
+    "codes": "force"
+  },
+  {
+    "name": "Douse",
+    "type": "toggle",
+    "img": "images/psynergy/Douse.png",
+    "codes": "douse"
+  },
+  {
+    "name": "Mars Star",
+    "type": "toggle",
+    "img": "images/items/Mars_Star.png",
+    "codes": "mars_star"
+  },
+  {
+    "name": "Ruin Key",
+    "type": "toggle",
+    "img": "images/items/Ruin_Key.png",
+    "codes": "ruin_key"
+  },
+  {
+    "name": "Red Cloth",
+    "type": "toggle",
+    "img": "images/items/Red_Cloth.png",
+    "codes": "red_cloth"
+  },
+  {
+    "name": "Trident",
+    "type": "toggle",
+    "img": "images/items/Trident.png",
+    "codes": "trident"
+  },
+  {
+    "name": "Sea God's Tear",
+    "type": "toggle",
+    "img": "images/items/Sea_Gods_Tear.png",
+    "codes": "sea_god's_tear"
+  },
+  {
+    "name": "Aquarius Stone",
+    "type": "toggle",
+    "img": "images/items/Aquarius_Stone.png",
+    "codes": "aquarius_stone"
+  },
+  {
+    "name": "Black Crystal",
+    "type": "toggle",
+    "img": "images/items/Black_Orb.png",
+    "codes": "black_crystal"
+  },
+  {
+    "name": "Healing Fungus",
+    "type": "toggle",
+    "img": "images/items/Healing_Fungus.png",
+    "codes": "healing_fungus"
+  },
+  {
+    "name": "Right Prong",
+    "type": "toggle",
+    "img": "images/items/Right_Prong.png",
+    "codes": "right_prong"
+  },
+  {
+    "name": "Li'l Turtle",
+    "type": "toggle",
+    "img": "images/items/Lil_Turtle.png",
+    "codes": "li'l_turtle"
+  },
+  {
+    "name": "Large Bread",
+    "type": "toggle",
+    "img": "images/items/Large_Bread.png",
+    "codes": "large_bread"
+  },
+  {
+    "name": "Shaman's Rod",
+    "type": "toggle",
+    "img": "images/items/Shamans_Rod.png",
+    "codes": "shaman's_rod"
+  },
+  {
+    "name": "Center Prong",
+    "type": "toggle",
+    "img": "images/items/Center_Prong.png",
+    "codes": "center_prong"
+  },
+  {
+    "name": "Pretty Stone",
+    "type": "toggle",
+    "img": "images/items/Pretty_Stone.png",
+    "codes": "pretty_stone"
+  },
+  {
+    "name": "Left Prong",
+    "type": "toggle",
+    "img": "images/items/Left_Prong.png",
+    "codes": "left_prong"
+  },
+  {
+    "name": "Milk",
+    "type": "toggle",
+    "img": "images/items/Milk.png",
+    "codes": "milk"
+  },
+  {
+    "name": "Magma Ball",
+    "type": "toggle",
+    "img": "images/items/Magma_Ball.png",
+    "codes": "magma_ball"
+  },
+  {
+    "name": "Dancing Idol",
+    "type": "toggle",
+    "img": "images/items/Dancing_Idol.png",
+    "codes": "dancing_idol"
+  },
+  {
+    "name": "Red Key",
+    "type": "toggle",
+    "img": "images/items/Red_Key.png",
+    "codes": "red_key"
+  },
+  {
+    "name": "Blue Key",
+    "type": "toggle",
+    "img": "images/items/Blue_Key.png",
+    "codes": "blue_key"
+  },
+  {
+    "name": "Lucky Medal",
+    "type": "toggle",
+    "img": "images/items/Lucky_Medal.png",
+    "codes": "lucky_medal"
+  },
+  {
+    "name": "Azul",
+    "type": "toggle",
+    "img": "images/summons/Azul.png",
+    "codes": "azul"
+  },
+  {
+    "name": "Zagan",
+    "type": "toggle",
+    "img": "images/summons/Zagan.png",
+    "codes": "zagan"
+  },
+  {
+    "name": "Moloch",
+    "type": "toggle",
+    "img": "images/summons/Moloch.png",
+    "codes": "moloch"
+  },
+  {
+    "name": "Coatlicue",
+    "type": "toggle",
+    "img": "images/summons/Coatlicue.png",
+    "codes": "coatlicue"
+  },
+  {
+    "name": "Flora",
+    "type": "toggle",
+    "img": "images/summons/Flora.png",
+    "codes": "flora"
+  },
+  {
+    "name": "Iris",
+    "type": "toggle",
+    "img": "images/summons/Iris.png",
+    "codes": "iris"
+  },
+  {
+    "name": "Eclipse",
+    "type": "toggle",
+    "img": "images/summons/Eclipse.png",
+    "codes": "eclipse"
+  },
+  {
+    "name": "Charon",
+    "type": "toggle",
+    "img": "images/summons/Charon.png",
+    "codes": "charon"
+  },
+  {
+    "name": "Megaera",
+    "type": "toggle",
+    "img": "images/summons/Megaera.png",
+    "codes": "megaera"
+  },
+  {
+    "name": "Daedalus",
+    "type": "toggle",
+    "img": "images/summons/Daedalus.png",
+    "codes": "daedalus"
+  },
+  {
+    "name": "Catastrophe",
+    "type": "toggle",
+    "img": "images/summons/Catastrophe.png",
+    "codes": "catastrophe"
+  },
+  {
+    "name": "Haures",
+    "type": "toggle",
+    "img": "images/summons/Haures.png",
+    "codes": "haures"
+  },
+  {
+    "name": "Ulysses",
+    "type": "toggle",
+    "img": "images/summons/Ulysses.png",
+    "codes": "ulysses"
+  }
+]

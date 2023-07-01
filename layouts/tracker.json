@@ -1,0 +1,273 @@
+{
+    "tracker_capture_item": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "margin": "0,4,0,1",
+                "item_margin": "-0.2,-0.2,-0.2,-0.2",
+                "rows": [
+                    ["shaman's_rod", "sea_god's_tear", "black_crystal", "aquarius_stone", "dancing_idol", "magma_ball", "mars_star"],
+                    ["ruin_key", "red_key", "blue_key", "left_prong", "center_prong", "right_prong", "trident"],
+                    ["lucky_medal", "healing_fungus", "pretty_stone", "red_cloth", "milk", "li'l_turtle"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "-0.2,-0.2,-0.2,-0.2",
+                "rows": [
+                    ["whirlwind", "growth", "mind_read", "lash", "pound", "tremor", "scoop"],
+                    ["reveal", "frost", "douse", "cyclone", "parch", "sand", "grind"],
+                    ["hover", "blaze", "burst", "teleport", "lift", "force", "carry"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "-0.05,-0.05,-0.05,-0.05",
+                "rows": [
+                    ["zagan", "flora", "megaera", "moloch", "ulysses", "eclipse", "haures"],
+                    ["coatlicue", "daedalus", "catastrophe", "azul", "charon", "iris"]
+                ]
+            }
+        ]
+    },
+
+    "settings_popup": {
+        "type": "array",
+        "background": "#aa444444",
+        "content": [
+            {
+                "type": "canvas",
+                "width": 340,
+                "height": 332,
+                "content":[
+                    {
+                        "type": "item",
+                        "item": "sett_mode",
+                        "canvas_left": 5,
+                        "canvas_top": 2
+                    },
+                    {
+                        "type": "container",
+                        "width": 332,
+                        "height": 2,
+                        "background": "#33ffffff",
+                        "canvas_left": 4,
+                        "canvas_top": 36
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_skips_basic",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 44
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_skips_basic.png",
+                        "canvas_left": 40,
+                        "canvas_top": 41
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_skips_oobeasy",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 79
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_oob_easy.png",
+                        "canvas_left": 40,
+                        "canvas_top": 76
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_skips_oobhard",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 114
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_oob_hard.png",
+                        "canvas_left": 40,
+                        "canvas_top": 111
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_skips_growth",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 149
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_nogrowth.png",
+                        "canvas_left": 40,
+                        "canvas_top": 146
+                    },
+                    {
+                        "type": "container",
+                        "width": 332,
+                        "height": 2,
+                        "background": "#33ffffff",
+                        "canvas_left": 4,
+                        "canvas_top": 184
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_hide_yellows",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 194
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_hide_yellows.png",
+                        "canvas_left": 40,
+                        "canvas_top": 191
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_show_captures",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 229
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_show_captures.png",
+                        "canvas_left": 40,
+                        "canvas_top": 226
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_boss_logic",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 264
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_boss_logic.png",
+                        "canvas_left": 40,
+                        "canvas_top": 261
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_major",
+                        "item_size": 30,
+                        "canvas_left": 4,
+                        "canvas_top": 299
+                    },
+                    {
+                        "type": "image",
+                        "image": "images/settings/text_major_minor.png",
+                        "canvas_left": 40,
+                        "canvas_top": 296
+                    }
+                ]
+            }
+        ]
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#877857",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dropshadow": true,
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content":[
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            },
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_items"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Psynergy",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_psynergy"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Summons & Djinn",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_summons_and_djinn"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Progression",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_progression"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "dropshadow": true,
+                    "height": 200,
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "header_background": "#302919",
+                            "background": "#24000000",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "map",
+                    "v_alignment": "center",
+                    "maps": ["map"]
+                }
+            ]
+        }
+    }
+}

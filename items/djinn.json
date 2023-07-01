@@ -1,0 +1,495 @@
+[
+	
+  {
+    "name": "Venus Djinn",
+    "type": "consumable",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus",
+    "swap_actions": false,
+    "max_quantity": 18,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Mercury Djinn",
+    "type": "consumable",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury",
+    "swap_actions": false,
+    "max_quantity": 18,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Mars Djinn",
+    "type": "consumable",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars",
+    "swap_actions": false,
+    "max_quantity": 18,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Jupiter Djinn",
+    "type": "consumable",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter",
+    "swap_actions": false,
+    "max_quantity": 18,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_0"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_1"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_2"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_3"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_4"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_5"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_6"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_7"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_8"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_9"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_10"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_11"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_12"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_13"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_14"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_15"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_16"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_17"
+  },
+  {
+    "name": "Venus Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_18"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_0"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_1"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_2"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_3"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_4"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_5"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_6"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_7"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_8"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_9"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_10"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_11"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_12"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_13"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_14"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_15"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_16"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_17"
+  },
+  {
+    "name": "Mercury Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_18"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_0"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_1"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_2"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_3"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_4"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_5"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_6"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_7"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_8"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_9"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_10"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_11"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_12"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_13"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_14"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_15"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_16"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_17"
+  },
+  {
+    "name": "Mars Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_18"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_0"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_1"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_2"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_3"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_4"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_5"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_6"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_7"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_8"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_9"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_10"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_11"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_12"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_13"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_14"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_15"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_16"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_17"
+  },
+  {
+    "name": "Jupiter Djinni",
+    "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_18"
+  }
+]

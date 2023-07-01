@@ -1,0 +1,152 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "2,2",
+                "rows": [
+                    [
+                        "shaman's_rod",
+                        "sea_god's_tear",
+                        "black_crystal",
+                        "aquarius_stone",
+                        "dancing_idol",
+                        "magma_ball",
+                        "mars_star"
+                    ],
+                    [
+                        "ruin_key",
+                        "red_key",
+                        "blue_key",
+                        "left_prong",
+                        "center_prong",
+                        "right_prong",
+                        "trident"
+                    ],
+                    [
+                        "lucky_medal",
+                        "healing_fungus",
+                        "pretty_stone",
+                        "red_cloth",
+                        "milk",
+                        "li'l_turtle"
+                    ]
+                ]
+            }
+        ]
+    },
+
+    "tracker_psynergy": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "2,2",
+                "rows": [
+				    [
+						"whirlwind",
+						"growth",
+						"mind_read",
+						"lash",
+						"pound",
+						"tremor",
+						"scoop"
+		    		],
+		    		[
+                        "reveal",
+						"frost",
+						"douse",
+						"cyclone",
+						"parch",
+						"sand",
+						"grind"
+		    		],
+		    		[
+                        "hover",
+						"blaze",
+						"burst",
+						"teleport",
+						"lift",
+						"force",
+						"carry"
+            		]
+                ]
+            }
+        ]
+    },
+
+    "tracker_summons_and_djinn": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "2,2",
+                "rows": [
+				    [
+						"zagan",
+						"flora",
+						"megaera",
+						"moloch",
+						"ulysses",
+						"eclipse",
+						"haures"
+			    	],
+		    		[
+						"coatlicue",
+						"daedalus",
+						"catastrophe",
+						"azul",
+						"charon",
+						"iris"
+		    		],
+		    		[
+		    		],
+                    [
+						"venus",
+						"mercury",
+						"mars",
+						"jupiter"
+		    		]
+                ]
+            }
+        ]
+	},
+
+    "tracker_progression": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "1,3",
+                "item_size": 40,
+                "rows": [
+                    [
+                        "briggs_battle",
+                        "piers",
+                        "gabomba_statue",
+                        "lemurian_ship",
+                        "susa",
+                        "briggs_jailbreak"
+                    ],
+                    [
+                        "trial_road",
+                        "jupiter_lit",
+                        "reunion",
+                        "cannon",
+                        "mars_lit",
+                        "doom_dragon"
+                    ]
+                ]
+            }
+        ]
+    }
+}

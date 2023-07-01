@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Require basic skips",
+        "type": "toggle",
+        "loop": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_skips_basic"
+    },
+    {
+        "name": "Require easy OOB",
+        "type": "toggle",
+        "loop": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_skips_oobeasy"
+    },
+    {
+        "name": "Require hard OOB",
+        "type": "toggle",
+        "loop": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_skips_oobhard"
+    },
+    {
+        "name": "Require maze w/o Growth",
+        "type": "toggle",
+        "loop": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_skips_growth"
+    },
+    {
+        "name": "Hide yellow checks",
+        "type": "toggle",
+        "loop": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_hide_yellows"
+    },
+    {
+        "name": "Enable item captures",
+        "type": "toggle",
+        "loop": true,
+        "initial_active_state": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_show_captures"
+    },
+    {
+        "name": "Enable boss logic requirements",
+        "type": "toggle",
+        "loop": true,
+        "initial_active_state": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_boss_logic"
+    },
+    {
+        "name": "Item shuffle mode",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/text_mode_0.png",
+                "codes": "sett_mode,sett_mode_0"
+            },
+            {
+                "img": "images/settings/text_mode_1.png",
+                "codes": "sett_mode,sett_mode_1"
+            },
+            {
+                "img": "images/settings/text_mode_2.png",
+                "codes": "sett_mode,sett_mode_2"
+            }
+        ]
+    },
+    {
+        "name": "Show only major locations",
+        "type": "toggle",
+        "loop": true,
+        "disabled_img": "images/settings/tick_off.png",
+        "img": "images/settings/tick_on.png",
+        "codes": "sett_major"
+    }
+]
