@@ -52,7 +52,6 @@
         "name": "Enable boss logic requirements",
         "type": "toggle",
         "loop": true,
-        "initial_active_state": true,
         "disabled_img": "images/settings/tick_off.png",
         "img": "images/settings/tick_on.png",
         "codes": "sett_boss_logic"
