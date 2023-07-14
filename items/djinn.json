@@ -36,6 +36,32 @@
     "max_quantity": 18,
     "initial_quantity": 0
   },
+  
+  {
+	  "name": "Venus Djinni",
+	  "type": "toggle",
+    "img": "images/hosts/djinni_venus.png",
+    "codes": "venus_capture"
+  },
+  {
+	  "name": "Mercury Djinni",
+	  "type": "toggle",
+    "img": "images/hosts/djinni_mercury.png",
+    "codes": "mercury_capture"
+  },
+  {
+	  "name": "Jupiter Djinni",
+	  "type": "toggle",
+    "img": "images/hosts/djinni_jupiter.png",
+    "codes": "jupiter_capture"
+  },
+  {
+	  "name": "Mars Djinni",
+	  "type": "toggle",
+    "img": "images/hosts/djinni_mars.png",
+    "codes": "mars_capture"
+  },
+  
   {
     "name": "Venus Djinni",
     "type": "toggle",

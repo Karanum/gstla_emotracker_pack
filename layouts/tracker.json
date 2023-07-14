@@ -35,6 +35,16 @@
             }
         ]
     },
+	
+	"tracker_capture_djinni": {
+		"type": "itemgrid",
+		"h_alignment": "center",
+		"margin": "4,2,4,2",
+		"item_margin": "2,1,2,1",
+		"rows": [
+			["venus_capture", "mercury_capture", "mars_capture", "jupiter_capture"]
+		]
+	},
 
     "settings_popup": {
         "type": "array",
