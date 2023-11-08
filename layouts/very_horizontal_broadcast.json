@@ -1,0 +1,91 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+		"orientation": "horizontal",
+        "content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"margin": "4,4,0,1",
+						"item_margin": "-0.2,-0.2,-0.2,-0.2",
+						"rows": [
+							["shaman's_rod", "sea_god's_tear", "black_crystal", "aquarius_stone", "dancing_idol", "magma_ball", "mars_star"],
+							["ruin_key", "red_key", "blue_key", "left_prong", "center_prong", "right_prong", "trident"],
+							["lucky_medal", "healing_fungus", "pretty_stone", "red_cloth", "milk", "li'l_turtle"]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-0.2,-0.2,-0.2,-0.2",
+						"rows": [
+							["whirlwind", "growth", "mind_read", "lash", "pound", "tremor", "scoop"],
+							["reveal", "frost", "douse", "cyclone", "parch", "sand", "grind"],
+							["hover", "blaze", "burst", "teleport", "lift", "force", "carry"]
+						]
+					},
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+							{
+							"type": "itemgrid",
+							"h_alignment": "center",
+							"item_margin": "-0.05,-0.05,-0.05,-0.05",
+							"rows": [
+								["zagan", "flora", "megaera", "moloch"],
+								["ulysses", "eclipse", "haures","coatlicue"],
+								["daedalus", "catastrophe", "azul", "charon", "iris"]
+							]
+							},
+							{
+							"type": "itemgrid",
+							"h_alignment": "center",
+							"v_alignment": "center",
+							"item_margin": "-0.05,-0.05,-0.05,-0.05",
+							"margin": "1,0,4,0",
+							"rows": [
+								["venus", "mercury"],
+								["mars", "jupiter"]
+							]
+							}
+						]
+					},
+					{
+						"type": "container",
+						"background": "#333333",
+						"width": 2,
+						"height": 100
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_size": 40,
+						"rows": [
+							[
+								"briggs_battle",
+								"piers",
+								"gabomba_statue",
+								"lemurian_ship",
+								"susa",
+								"briggs_jailbreak"
+							],
+							[
+								"trial_road",
+								"jupiter_lit",
+								"reunion",
+								"cannon",
+								"mars_lit",
+								"doom_dragon"
+							]
+						]
+					}
+				]
+			}
+		]
+    }
+}
