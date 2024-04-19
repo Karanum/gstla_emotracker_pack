@@ -1598,7 +1598,7 @@
 						},
 						{
 							"name": "Steam",
-							"access_rules": ["parch", "{sett_show_captures}"],
+							"access_rules": ["parch", "{sett_show_captures,frost}"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mercury_3"
