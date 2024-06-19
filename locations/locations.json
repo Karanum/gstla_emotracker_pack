@@ -1033,7 +1033,7 @@
 						{
 							"name": "Daedalus Tablet",
 							"short_name": "Daedalus",
-							"access_rules": ["$hasDjinn|64,reunion,pound"],
+							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,pound"],
 							"item_count": 1
 						},
 						{
@@ -1824,7 +1824,7 @@
 						{
 							"name": "Catastrophe Tablet",
 							"short_name": "Catastrophe",
-							"access_rules": ["$hasDjinn|64,reunion,teleport"],
+							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,teleport"],
 							"item_count": 1
 						},
 						{
@@ -2112,7 +2112,7 @@
 						{
 							"name": "Azul Tablet",
 							"short_name": "Azul",
-							"access_rules": ["$hasDjinn|64,grind,lift,reunion"],
+							"access_rules": ["$hasDjinn|64,grind,lift,reunion,jupiter_lit"],
 							"item_count": 1
 						},
 						{
@@ -2478,7 +2478,7 @@
 		},
 		{
 			"name": "Western Sea",
-			"access_rules": ["lemurian_ship,grind"],
+			"access_rules": ["lemurian_ship,grind", "lemurian_ship,reunion,hover"],
 			"children": [
 				{
 					"name": "Angara Cavern",
@@ -2552,7 +2552,7 @@
 						{
 							"name": "Coatlicue Tablet",
 							"short_name": "Coatlicue",
-							"access_rules": ["reunion,parch", "{sett_show_captures,reunion}"],
+							"access_rules": ["reunion,hover,parch", "{sett_show_captures,reunion,hover}"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -3223,7 +3223,7 @@
 						"x": 655,
 						"y": 3375
 					}],
-					"access_rules": ["reunion"],
+					"access_rules": ["reunion,hover"],
 					"sections": [
 						{
 							"name": "Sunken Item",
