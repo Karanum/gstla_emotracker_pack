@@ -86,10 +86,14 @@
 					],
 					[
                         "reunion",
-                        "cannon"
+                        "wings_of_anemos"
 					],
 					[
-                        "mars_lit",
+                        "cannon",
+                        "mars_lit"
+					],
+					[
+                        "anemos_door",
                         "doom_dragon"
                     ]
 				]
