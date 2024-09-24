@@ -400,18 +400,18 @@
 						"x": 4070,
 						"y": 3850
 					}],
-					"access_rules": ["reveal"],
 					"sections": [
 						{
 							"name": "Main Cave East",
 							"short_name": "Main East",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"capture_item": true,
+							"access_rules": ["{sett_show_captures}","reveal"]
 						},
 						{
 							"name": "Main Cave South",
 							"short_name": "Main South",
-							"access_rules": ["lash,frost", "{sett_show_captures}"],
+							"access_rules": ["reveal,lash,frost", "{sett_show_captures,reveal}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -419,24 +419,26 @@
 						{
 							"name": "Tremor Bit",
 							"short_name": "Tremor",
+							"access_rules": ["reveal"],
 							"item_count": 1
 						},
 						{
 							"name": "Ruins West Room",
 							"short_name": "Ruins West",
 							"item_count": 1,
+							"access_rules": ["reveal"],
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "Ruin Key",
-							"access_rules": ["lash,frost,tremor", "{sett_show_captures,lash,frost}"],
+							"access_rules": ["reveal,lash,frost,tremor", "{sett_show_captures,reveal,lash,frost}"],
 							"capture_item": true,
 							"item_count": 1
 						},
 						{
 							"name": "Moloch Tablet",
 							"short_name": "Moloch",
-							"access_rules": ["ruin_key"],
+							"access_rules": ["reveal,ruin_key"],
 							"item_count": 1
 						}
 					],
@@ -1197,7 +1199,7 @@
 								{
 									"name": "Gabomba Reward",
 									"short_name": "Orb",
-									"access_rules": ["gabomba_statue", "$neg|sett_hide_yellows,[lash],{sett_show_captures}", "lash,{sett_show_captures}", "sett_skips_oobeasy,{sett_show_captures}"],
+									"access_rules": ["gabomba_statue", "{sett_show_captures,$neg|sett_hide_yellows,[lash]}", "{sett_show_captures,lash}", "{sett_show_captures,sett_skips_oobeasy}"],
 									"capture_item": true,
 									"hosted_item": "gabomba_statue",
 									"visibility_rules": ["sett_show_captures"]
@@ -1682,7 +1684,8 @@
 						},
 						{
 							"name": "Trident",
-							"access_rules": ["$hasDjinn|20,briggs_jailbreak,left_prong,center_prong,right_prong,reveal"],
+							"access_rules": ["{sett_show_captures,$hasDjinn|20,briggs_jailbreak,left_prong,center_prong,right_prong}","$hasDjinn|20,briggs_jailbreak,left_prong,center_prong,right_prong,reveal"],
+							"capture_item": true,
 							"item_count": 1
 						}
 					],
@@ -2865,7 +2868,8 @@
 						{
 							"name": "Item Under Boulder",
 							"short_name": "Req. Lift",
-							"access_rules": ["cannon,lift,scoop"],
+							"access_rules": ["cannon,lift,scoop", "{sett_show_captures,cannon,lift}"],
+							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -3025,7 +3029,9 @@
 						{
 							"name": "Reserve Djinni (Jupiter)",
 							"short_name": "GS1 Jupiter",
-							"access_rules": ["lift"],
+							"access_rules": ["lift", "{sett_show_captures}"],
+							"capture_item": true,
+							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_7"
 						}
 					],
