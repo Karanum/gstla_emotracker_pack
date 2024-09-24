@@ -145,7 +145,7 @@
 						"x": 3345,
 						"y": 3900
 					}],
-					"access_rules": ["frost", "scoop", "lemurian_ship,briggs_battle", "whirlwind,sett_skips_oobhard,briggs_battle"],
+					"access_rules": ["frost", "scoop", "$canSailShip,briggs_battle", "whirlwind,sett_skips_oobhard,briggs_battle"],
 					"sections": [
 						{
 							"name": "Left Ledge",
@@ -243,19 +243,19 @@
 							"map": "weyard",
 							"x": 4450,
 							"y": 3625,
-							"force_invisibility_rules": ["lemurian_ship"]
+							"force_invisibility_rules": ["$canSailShip"]
 						},
 						{
 							"map": "weyard",
 							"x": 1660,
 							"y": 3165,
-							"restrict_visibility_rules": ["lemurian_ship,grind"]
+							"restrict_visibility_rules": ["$canAccessWesternSeas"]
 						},
 						{
 							"map": "weyard",
 							"x": 5965,
 							"y": 2515,
-							"restrict_visibility_rules": ["lemurian_ship"]
+							"restrict_visibility_rules": ["$canAccessLemuria"]
 						}
 					],
 					"access_rules": ["$canAccessShip"],
@@ -675,7 +675,7 @@
 						"x": 5295,
 						"y": 3795
 					}],
-					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "lemurian_ship"],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "$canSailShip"],
 					"sections": [
 						{
 							"name": "Reveal Circle",
@@ -1071,11 +1071,11 @@
 		},
 		{
 			"name": "Gondowan",
-			"access_rules": ["lemurian_ship", "briggs_battle,frost", "briggs_battle,scoop", "sett_skips_oobhard,whirlwind"],
+			"access_rules": ["$canSailShip", "briggs_battle,frost", "briggs_battle,scoop", "sett_skips_oobhard,whirlwind"],
 			"children": [
 				{
 					"name": "Kibombo Area",
-					"access_rules": ["lemurian_ship", "lash,whirlwind", "frost"],
+					"access_rules": ["$canSailShip", "lash,whirlwind", "frost"],
 					"children": [
 						{
 							"name": "Gabomba Catacombs",
@@ -1201,7 +1201,7 @@
 									"capture_item": true,
 									"hosted_item": "gabomba_statue",
 									"visibility_rules": ["sett_show_captures"]
-								},
+								}
 							],
 							"children": [
 								{ "name": "0xF4E" },
@@ -1251,7 +1251,7 @@
 						},
 						{
 							"name": "Waft",
-							"access_rules": ["frost,growth", "{sett_show_captures,lemurian_ship}", "{sett_show_captures,lash,whirlwind}", "{sett_show_captures,frost}"],
+							"access_rules": ["frost,growth", "{sett_show_captures,$canSailShip}", "{sett_show_captures,lash,whirlwind}", "{sett_show_captures,frost}"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_4"
@@ -1337,7 +1337,7 @@
 		},
 		{
 			"name": "Eastern Sea",
-			"access_rules": ["lemurian_ship"],
+			"access_rules": ["$canSailShip"],
 			"children": [
 				{
 					"name": "Ankohl Ruins",
@@ -2402,7 +2402,7 @@
 				"x": 5965,
 				"y": 2435			
 			}],
-			"access_rules": ["lemurian_ship,grind", "$hasDjinn|24,lemurian_ship,trident"],
+			"access_rules": ["$canAccessLemuria"],
 			"sections": [
 				{
 					"name": "Grindstone",
@@ -2478,7 +2478,7 @@
 		},
 		{
 			"name": "Western Sea",
-			"access_rules": ["lemurian_ship,grind", "lemurian_ship,reunion,hover"],
+			"access_rules": ["$canAccessWesternSeas"],
 			"children": [
 				{
 					"name": "Angara Cavern",
@@ -2507,7 +2507,7 @@
 						"x": 2025,
 						"y": 2690
 					}],
-					"access_rules": ["reunion,venus:18,mars:18,jupiter:18,mercury:18,teleport"],
+					"access_rules": ["$canAccessInnerAnemos"],
 					"sections": [
 						{
 							"name": "Charon Tablet",
@@ -2531,7 +2531,7 @@
 							"name": "Iris Tablet",
 							"short_name": "Iris",
 							"item_count": 1,
-							"access_rules": ["lift,sand"]
+							"access_rules": ["lift,sand,$hasDjinn|72"]
 						}
 					],
 					"children": [
@@ -2552,7 +2552,7 @@
 						{
 							"name": "Coatlicue Tablet",
 							"short_name": "Coatlicue",
-							"access_rules": ["reunion,hover,parch", "{sett_show_captures,reunion,hover}"],
+							"access_rules": ["$canFlyShip,parch", "{sett_show_captures,$canFlyShip}"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -2867,7 +2867,7 @@
 							"short_name": "Req. Lift",
 							"access_rules": ["cannon,lift,scoop"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Dwarven Cannon",
@@ -3239,7 +3239,7 @@
 		},
 		{
 			"name": "Northern Reaches",
-			"access_rules": ["lemurian_ship,grind,cannon"],
+			"access_rules": ["$canAccessWesternSeas,cannon"],
 			"children": [
 				{
 					"name": "Mars Lighthouse (Lower)",

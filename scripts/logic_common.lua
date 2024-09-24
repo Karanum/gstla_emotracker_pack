@@ -22,20 +22,24 @@ function canAccessKibombo()
     end
 end
 
-function canAccessYampiBackside()
-    return Tracker:ProviderCountForCode("scoop") + Tracker:ProviderCountForCode("sand") + Tracker:ProviderCountForCode("lemurian_ship")
+function canSailShip()
+    return Tracker:ProviderCountForCode("lemurian_ship")
+end
+
+function canAccessLemuria()
+    return canSailShip() * (Tracker:ProviderCountForCode("grind") + (Tracker:ProviderCountForCode("trident") * hasDjinn("24")))
+end
+
+function canFlyShip()
+    return canSailShip() * Tracker:ProviderCountForCode("hover") * (Tracker:ProviderCountForCode("wings_of_anemos") + Tracker:ProviderCountForCode("reunion"))
+end
+
+function canAccessWesternSeas()
+    return canSailShip() * (Tracker:ProviderCountForCode("grind") + canFlyShip())
 end
 
 function canAccessShip()
-    if Tracker:ProviderCountForCode("lemurian_ship") > 0 then
-        return Tracker:ProviderCountForCode("grind") + (Tracker:ProviderCountForCode("trident") * hasDjinn("24"))
-    else
-        if Tracker:ProviderCountForCode("gabomba_statue") > 0 then
-            return Tracker:ProviderCountForCode("black_crystal")
-        else
-			return 0
-		end
-    end
+    return (canSailShip() * (canAccessLemuria() + canAccessWesternSeas())) + (Tracker:ProviderCountForCode("gabomba_statue") * Tracker:ProviderCountForCode("black_crystal"))
 end
 
 function canAccessUpperMars()
@@ -43,6 +47,10 @@ function canAccessUpperMars()
         return Tracker:ProviderCountForCode("mars_star")
     end
 	return 0
+end
+
+function canAccessYampiBackside()
+    return Tracker:ProviderCountForCode("scoop") + Tracker:ProviderCountForCode("sand") + canSailShip()
 end
 
 function neg(code)
@@ -62,4 +70,13 @@ function hasDjinn(num)
         return 1
     end
     return 0
+end
+
+function canAccessInnerAnemos()
+    local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
+    if djinn == 72 then
+        return Tracker:ProviderCountForCode("teleport")
+    else
+        return Tracker:ProviderCountForCode("teleport") * ( ((djinn >= 72) and 1 or 0) + Tracker:ProviderCountForCode("anemos_door"))
+    end
 end

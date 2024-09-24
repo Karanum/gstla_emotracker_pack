@@ -82,5 +82,19 @@
     "img": "images/hosts/doomy.png",
     "codes": "doom_dragon",
     "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Open Anemos Door",
+    "type": "toggle",
+    "img": "images/hosts/open_anemos.png",
+    "codes": "anemos_door",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Wings of Anemos",
+    "type": "toggle",
+    "img": "images/hosts/wings.png",
+    "codes": "wings_of_anemos",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
   }
 ]

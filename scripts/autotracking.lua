@@ -175,6 +175,8 @@ local function updateProgressionReunion(seg) updateProgression(seg, 0x9D0, "reun
 local function updateProgressionCannon(seg) updateProgression(seg, 0xA5F, "cannon") end
 local function updateProgressionMars(seg) updateProgression(seg, 0xA4B, "mars_lit") end
 local function updateProgressionDoomDragon(seg) updateProgression(seg, 0x778, "doom_dragon") end
+local function updateProgressionAnemosDoor(seg) updateProgression(seg, 0xA8B, "anemos_door") end
+local function updateProgressionAnemosWings(seg) updateProgression(seg, 0x8DF, "wings_of_anemos") end
 
 -- =====================
 -- Location data loading
@@ -363,6 +365,8 @@ local function registerProgressionWatches()
     ScriptHost:AddMemoryWatch("Prog - Cannon", getFlagAddr(0xA5F), 1, updateProgressionCannon, 2000)
     ScriptHost:AddMemoryWatch("Prog - Mars LH", getFlagAddr(0xA4B), 1, updateProgressionMars, 2000)
     ScriptHost:AddMemoryWatch("Prog - Doom Dragon", getFlagAddr(0x778), 1, updateProgressionDoomDragon, 2000)
+    ScriptHost:AddMemoryWatch("Prog - Anemos Door", getFlagAddr(0xA8B), 1, updateProgressionAnemosDoor, 2000)
+    ScriptHost:AddMemoryWatch("Prog - Anemos Wings", getFlagAddr(0x8DF), 1, updateProgressionAnemosWings, 2000)
 end
 
 if AUTOTRACKER_TRACK_ITEMS then
