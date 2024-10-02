@@ -77,6 +77,6 @@ function canAccessInnerAnemos()
     if djinn == 72 then
         return Tracker:ProviderCountForCode("teleport")
     else
-        return Tracker:ProviderCountForCode("teleport") * ( ((djinn >= 72) and 1 or 0) + Tracker:ProviderCountForCode("anemos_door"))
+        return Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("anemos_door")
     end
 end

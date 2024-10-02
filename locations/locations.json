@@ -5,6 +5,24 @@
 	"size": 90,
 	"children": [
 		{
+			"name": "Gabomba Reward",
+			"map_locations": [{
+				"map": "weyard",
+				"x": 3400,
+				"y": 2800
+			}],
+			"sections": [
+				{
+					"name": "Gabomba Reward",
+					"short_name": "Orb",
+					"access_rules": ["gabomba_statue", "{sett_show_captures}"],
+					"capture_item": true,
+					"hosted_item": "gabomba_statue",
+					"visibility_rules": ["sett_show_captures"]
+				}
+			]
+		},
+		{
 			"name": "Indra",
 			"children": [
 				{
@@ -362,14 +380,6 @@
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
 						{
-							"name": "Gabomba Reward",
-							"short_name": "Orb",
-							"access_rules": ["gabomba_statue", "{sett_show_captures}"],
-							"capture_item": true,
-							"hosted_item": "gabomba_statue",
-							"visibility_rules": ["sett_show_captures"]
-						},
-						{
 							"name": "Mayor's Gift",
 							"short_name": "Cyclone",
 							"access_rules": ["gabomba_statue"],
@@ -411,7 +421,7 @@
 						{
 							"name": "Main Cave South",
 							"short_name": "Main South",
-							"access_rules": ["reveal,lash,frost", "{sett_show_captures,reveal}"],
+							"access_rules": ["reveal,lash,frost", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -1010,12 +1020,12 @@
 						"x": 5110,
 						"y": 4025
 					}],
-					"access_rules": ["teleport,sand,burst"],
+					"access_rules": ["teleport"],
 					"sections": [
 						{
 							"name": "Half-buried Item",
 							"short_name": "Half-buried",
-							"access_rules": ["scoop", "{sett_show_captures}"],
+							"access_rules": ["sand,burst,scoop", "{sett_show_captures,sand,burst}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1023,19 +1033,22 @@
 						{
 							"name": "Halfway Chest",
 							"short_name": "Middle",
+							"access_rules": ["sand,burst"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Shortcut Room Chest",
 							"short_name": "Shortcut",
+							"access_rules": ["sand,burst", "{sett_show_captures,$neg|sett_hide_yellows,[sand]}"],
+							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Daedalus Tablet",
 							"short_name": "Daedalus",
-							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,pound"],
+							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,sand,burst,pound"],
 							"item_count": 1
 						},
 						{
@@ -1195,14 +1208,6 @@
 									"name": "Piers",
 									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
 									"hosted_item": "piers"
-								},
-								{
-									"name": "Gabomba Reward",
-									"short_name": "Orb",
-									"access_rules": ["gabomba_statue", "{sett_show_captures,$neg|sett_hide_yellows,[lash]}", "{sett_show_captures,lash}", "{sett_show_captures,sett_skips_oobeasy}"],
-									"capture_item": true,
-									"hosted_item": "gabomba_statue",
-									"visibility_rules": ["sett_show_captures"]
 								}
 							],
 							"children": [
@@ -1232,7 +1237,7 @@
 						{
 							"name": "North Screen",
 							"short_name": "North",
-							"access_rules": ["lash"],
+							"access_rules": ["lash","gabomba_statue"],
 							"item_count": 2,
 							"clear_as_group": false,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -1240,14 +1245,14 @@
 						{
 							"name": "North Screen",
 							"short_name": "North",
-							"access_rules": ["lash"],
+							"access_rules": ["lash","gabomba_statue"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,sett_major"]
 						},
 						{
 							"name": "North Screen Cave",
 							"short_name": "Cave",
-							"access_rules": ["lash"],
+							"access_rules": ["lash","gabomba_statue"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
