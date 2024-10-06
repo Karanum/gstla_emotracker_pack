@@ -2539,7 +2539,7 @@
 							"name": "Iris Tablet",
 							"short_name": "Iris",
 							"item_count": 1,
-							"access_rules": ["lift,sand,$hasDjinn|72"]
+							"access_rules": ["$hasDjinn|72,lift,sand,reunion"]
 						}
 					],
 					"children": [
