@@ -20,6 +20,9 @@
 					"hosted_item": "gabomba_statue",
 					"visibility_rules": ["sett_show_captures"]
 				}
+			],
+			"children": [
+				{ "name": "0x62" }
 			]
 		},
 		{
@@ -399,8 +402,7 @@
 						{ "name": "0xF0E" },
 						{ "name": "0xF0F" },
 						{ "name": "0x8FF" },
-						{ "name": "0x918" },
-						{ "name": "0x62" }
+						{ "name": "0x918" }
 					]
 				},
 				{
