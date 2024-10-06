@@ -1053,7 +1053,7 @@
 						},
 						{
 							"name": "Crystal",
-							"access_rules": ["scoop"],
+							"access_rules": ["sand,burst,scoop"],
 							"hosted_item": "venus_1"
 						}
 					],
