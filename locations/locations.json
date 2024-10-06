@@ -3276,35 +3276,35 @@
 						},
 						{
 							"name": "Orihalcon",
-							"access_rules": ["pound,burst,blaze"],
+							"access_rules": ["grind,pound,burst,blaze"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Teleport Lapis",
 							"short_name": "Teleport",
-							"access_rules": ["pound,burst,blaze", "pound,burst,teleport", "{sett_show_captures,pound,burst}"],
+							"access_rules": ["grind,pound,burst,blaze", "grind,pound,burst,teleport", "{sett_show_captures,grind,pound,burst}"],
 							"capture_item": true,
 							"item_count": 1
 						},
 						{
 							"name": "Valkyrie Mail",
 							"short_name": "Hallway",
-							"access_rules": ["pound,burst,blaze,reveal,teleport"],
+							"access_rules": ["pound,grind,burst,blaze,reveal,teleport"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Sol Blade",
 							"short_name": "Sol",
-							"access_rules": ["pound,burst,blaze,reveal,teleport"],
+							"access_rules": ["pound,grind,burst,blaze,reveal,teleport"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Flame Dragons",
 							"short_name": "Agatio",
-							"access_rules": ["$hasDjinn|48,pound,burst,blaze,reveal,teleport"],
+							"access_rules": ["$hasDjinn|48,grind,pound,burst,blaze,reveal,teleport"],
 							"item_count": 1
 						},
 						{
@@ -3315,7 +3315,7 @@
 						},
 						{
 							"name": "Balm",
-							"access_rules": ["pound,burst,blaze"],
+							"access_rules": ["pound,grind,burst,blaze"],
 							"hosted_item": "mercury_8"
 						}
 					],

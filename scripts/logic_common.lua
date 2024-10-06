@@ -43,10 +43,7 @@ function canAccessShip()
 end
 
 function canAccessUpperMars()
-    if Tracker:ProviderCountForCode("burst") > 0 and Tracker:ProviderCountForCode("blaze") > 0 and Tracker:ProviderCountForCode("reveal") > 0 and Tracker:ProviderCountForCode("teleport") > 0 and Tracker:ProviderCountForCode("pound") > 0 then
-        return Tracker:ProviderCountForCode("mars_star")
-    end
-	return 0
+    return Tracker:ProviderCountForCode("grind") * Tracker:ProviderCountForCode("mars_star") * Tracker:ProviderCountForCode("burst") * Tracker:ProviderCountForCode("blaze") * Tracker:ProviderCountForCode("reveal") * Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("pound")
 end
 
 function canAccessYampiBackside()
