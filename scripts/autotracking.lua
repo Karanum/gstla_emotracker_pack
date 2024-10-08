@@ -159,6 +159,9 @@ local function updateSummons(seg)
 end
 
 local function updateProgression(seg, flag, code)
+    if not isInGame() then
+        return false
+    end
     local state = (seg:ReadUInt8(getFlagAddr(flag)) & getFlagMask(flag)) > 0
     setActive(Tracker:FindObjectForCode(code), state)
 end
@@ -177,6 +180,15 @@ local function updateProgressionMars(seg) updateProgression(seg, 0xA4B, "mars_li
 local function updateProgressionDoomDragon(seg) updateProgression(seg, 0x778, "doom_dragon") end
 local function updateProgressionAnemosDoor(seg) updateProgression(seg, 0xA8B, "anemos_door") end
 local function updateProgressionAnemosWings(seg) updateProgression(seg, 0x8DF, "wings_of_anemos") end
+
+local function updateCharactersIsaac(seg) updateProgression(seg, 0x0, "character_isaac") end
+local function updateCharactersGarret(seg) updateProgression(seg, 0x1, "character_garret") end
+local function updateCharactersIvan(seg) updateProgression(seg, 0x2, "character_ivan") end
+local function updateCharactersMia(seg) updateProgression(seg, 0x3, "character_mia") end
+local function updateCharactersFelix(seg) updateProgression(seg, 0x4, "character_felix") end
+local function updateCharactersJenna(seg) updateProgression(seg, 0x5, "character_jenna") end
+local function updateCharactersSheba(seg) updateProgression(seg, 0x6, "character_sheba") end
+local function updateCharactersPiers(seg) updateProgression(seg, 0x7, "character_piers") end
 
 -- =====================
 -- Location data loading
@@ -352,6 +364,17 @@ local function updateChestsF(seg) updateChests(seg, 0xF00) end
 -- Memory watches
 -- ==============
 
+local function registerCharacterWatches()
+    ScriptHost:AddMemoryWatch("Char - Felix", getFlagAddr(0x4), 1, updateCharactersFelix, 2000)
+    ScriptHost:AddMemoryWatch("Char - Jenna", getFlagAddr(0x5), 1, updateCharactersJenna, 2000)
+    ScriptHost:AddMemoryWatch("Char - Sheba", getFlagAddr(0x6), 1, updateCharactersSheba, 2000)
+    ScriptHost:AddMemoryWatch("Char - Piers", getFlagAddr(0x7), 1, updateCharactersPiers, 2000)
+    ScriptHost:AddMemoryWatch("Char - Isaac", getFlagAddr(0x0), 1, updateCharactersIsaac, 2000)
+    ScriptHost:AddMemoryWatch("Char - Garret", getFlagAddr(0x1), 1, updateCharactersGarret, 2000)
+    ScriptHost:AddMemoryWatch("Char - Ivan", getFlagAddr(0x2), 1, updateCharactersIvan, 2000)
+    ScriptHost:AddMemoryWatch("Char - Mia", getFlagAddr(0x3), 1, updateCharactersMia, 2000)
+end
+
 local function registerProgressionWatches()
     ScriptHost:AddMemoryWatch("Prog - Briggs", getFlagAddr(0x8AB), 1, updateProgressionBriggs, 2000)
     ScriptHost:AddMemoryWatch("Prog - Piers", getFlagAddr(0x8F4), 1, updateProgressionPiers, 2000)
@@ -392,6 +415,7 @@ if AUTOTRACKER_TRACK_ITEMS then
     ScriptHost:AddMemoryWatch("Psynergy (Piers)", 0x02000E8C, 0x80, updatePsynergyPiers, 2000)
 
     registerProgressionWatches()
+    registerCharacterWatches()
 
     print("Autotracker is set up for item tracking")
 end
@@ -413,6 +437,7 @@ if AUTOTRACKER_TRACK_LOCATIONS then
 
     if not AUTOTRACKER_TRACK_ITEMS then
         registerProgressionWatches()
+        registerCharacterWatches()
     end
 
     print("Autotracker is set up for location tracking")

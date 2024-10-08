@@ -29,6 +29,25 @@
 						]
 					},
 					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-0.2,-0.2,-0.2,-0.2",
+						"rows": [
+							[
+								"character_felix",
+								"character_jenna",
+								"character_sheba",
+								"character_piers"
+							],
+							[
+								"character_isaac",
+								"character_garret",
+								"character_ivan",
+								"character_mia"
+							]
+						]
+					},
+					{
 						"type": "array",
 						"orientation": "horizontal",
 						"content": [

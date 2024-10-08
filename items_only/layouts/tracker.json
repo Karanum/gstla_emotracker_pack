@@ -6,7 +6,7 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_margin": "8,12",
+                "item_margin": "8,6",
                 "item_size": 50,
                 "rows": [
                     [
@@ -104,6 +104,12 @@
                                 "type": "layout",
                                 "key": "tracker_progression_compact"
                             }
+                        },
+                        {
+                            "type": "layout",
+                            "key": "tracker_characters",
+                            "background": "#33000000",
+                            "dock": "top"
                         }
                     ]
                 }

@@ -1050,7 +1050,7 @@
 						{
 							"name": "Daedalus Tablet",
 							"short_name": "Daedalus",
-							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,sand,burst,pound"],
+							"access_rules": ["$canFightSuperBoss|64,sand,burst,pound"],
 							"item_count": 1
 						},
 						{
@@ -1834,7 +1834,7 @@
 						{
 							"name": "Catastrophe Tablet",
 							"short_name": "Catastrophe",
-							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,teleport"],
+							"access_rules": ["$canFightSuperBoss|64,teleport"],
 							"item_count": 1
 						},
 						{
@@ -2122,7 +2122,7 @@
 						{
 							"name": "Azul Tablet",
 							"short_name": "Azul",
-							"access_rules": ["$hasDjinn|64,grind,lift,reunion,jupiter_lit"],
+							"access_rules": ["$canFightSuperBoss|64,grind,lift"],
 							"item_count": 1
 						},
 						{
@@ -2541,7 +2541,7 @@
 							"name": "Iris Tablet",
 							"short_name": "Iris",
 							"item_count": 1,
-							"access_rules": ["$hasDjinn|72,lift,sand,reunion"]
+							"access_rules": ["$canFightSuperBoss|72,lift,sand,reunion"]
 						}
 					],
 					"children": [

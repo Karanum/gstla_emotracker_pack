@@ -77,3 +77,24 @@ function canAccessInnerAnemos()
         return Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("anemos_door")
     end
 end
+
+function hasCharacters(num)
+    if Tracker:ProviderCountForCode("sett_boss_logic") == 0 then
+        return 1
+    end
+
+    local characters = Tracker:ProviderCountForCode("character_felix") + Tracker:ProviderCountForCode("character_jenna") + Tracker:ProviderCountForCode("character_sheba") + Tracker:ProviderCountForCode("character_piers") + Tracker:ProviderCountForCode("character_isaac") + Tracker:ProviderCountForCode("character_garret") + Tracker:ProviderCountForCode("character_ivan") + Tracker:ProviderCountForCode("character_mia")
+    if characters >= tonumber(num) then
+        return 1
+    end
+    return 0
+end
+
+function canFightSuperBoss(num)
+    if Tracker:ProviderCountForCode("sett_boss_logic") == 0 then
+        return 1
+    end
+
+    return hasCharacters(8) * hasDjinn(num)
+
+end

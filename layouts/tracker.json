@@ -247,6 +247,17 @@
                                 "type": "layout",
                                 "key": "tracker_progression"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Characters",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_characters"
+                            }
                         }
                     ]
                 },
