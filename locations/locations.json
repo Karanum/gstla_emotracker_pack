@@ -22,7 +22,7 @@
 				}
 			],
 			"children": [
-				{ "name": "0x62" }
+				{ "name": "0x8FF" }
 			]
 		},
 		{
@@ -401,8 +401,8 @@
 						{ "name": "0xF11" },
 						{ "name": "0xF0E" },
 						{ "name": "0xF0F" },
-						{ "name": "0x8FF" },
-						{ "name": "0x918" }
+						{ "name": "0x918" },
+						{ "name": "0x62" }
 					]
 				},
 				{
@@ -1216,8 +1216,7 @@
 								{ "name": "0xF4E" },
 								{ "name": "0xF50" },
 								{ "name": "0xF4F" },
-								{ "name": "0x8F4" },
-								{ "name": "0x8FF" }
+								{ "name": "0x8F4" }
 							]
 						}
 					]

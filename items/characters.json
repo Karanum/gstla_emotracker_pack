@@ -35,7 +35,7 @@
     "disabled_img_mods": "brightness|0.5,saturation|0"
   },
   {
-    "name": "Garret",
+    "name": "Garet",
     "type": "toggle",
     "img": "images/characters/garret.png",
     "codes": "character_garret",

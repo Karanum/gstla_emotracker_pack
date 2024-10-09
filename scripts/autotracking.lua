@@ -114,7 +114,7 @@ end
 local function updatePsynergyIsaac(seg) updatePsynergy(seg, 0) end
 local function updatePsynergyGaret(seg) updatePsynergy(seg, 1) end
 local function updatePsynergyIvan(seg) updatePsynergy(seg, 2) end
-local function updatePsynergyMia(seg) updatePsynergy(seg, 3)end
+local function updatePsynergyMia(seg) updatePsynergy(seg, 3) end
 local function updatePsynergyFelix(seg) updatePsynergy(seg, 4) end
 local function updatePsynergyJenna(seg) updatePsynergy(seg, 5) end
 local function updatePsynergySheba(seg) updatePsynergy(seg, 6) end
