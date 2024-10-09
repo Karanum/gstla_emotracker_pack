@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Felix",
+    "type": "toggle",
+    "img": "images/characters/felix.png",
+    "codes": "character_felix",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Jenna",
+    "type": "toggle",
+    "img": "images/characters/jenna.png",
+    "codes": "character_jenna",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Sheba",
+    "type": "toggle",
+    "img": "images/characters/sheba.png",
+    "codes": "character_sheba",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Piers",
+    "type": "toggle",
+    "img": "images/characters/piers.png",
+    "codes": "character_piers",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Isaac",
+    "type": "toggle",
+    "img": "images/characters/isaac.png",
+    "codes": "character_isaac",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Garret",
+    "type": "toggle",
+    "img": "images/characters/garret.png",
+    "codes": "character_garret",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Ivan",
+    "type": "toggle",
+    "img": "images/characters/ivan.png",
+    "codes": "character_ivan",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Mia",
+    "type": "toggle",
+    "img": "images/characters/mia.png",
+    "codes": "character_mia",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  }
+]

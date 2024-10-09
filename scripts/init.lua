@@ -2,6 +2,7 @@ Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/djinn.json")
 Tracker:AddItems("items/progression.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/characters.json")
 
 ScriptHost:LoadScript("scripts/logic_common.lua")
 ScriptHost:LoadScript("scripts/settings.lua")

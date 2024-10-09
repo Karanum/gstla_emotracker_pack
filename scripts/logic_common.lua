@@ -43,10 +43,7 @@ function canAccessShip()
 end
 
 function canAccessUpperMars()
-    if Tracker:ProviderCountForCode("burst") > 0 and Tracker:ProviderCountForCode("blaze") > 0 and Tracker:ProviderCountForCode("reveal") > 0 and Tracker:ProviderCountForCode("teleport") > 0 and Tracker:ProviderCountForCode("pound") > 0 then
-        return Tracker:ProviderCountForCode("mars_star")
-    end
-	return 0
+    return Tracker:ProviderCountForCode("grind") * Tracker:ProviderCountForCode("mars_star") * Tracker:ProviderCountForCode("burst") * Tracker:ProviderCountForCode("blaze") * Tracker:ProviderCountForCode("reveal") * Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("pound")
 end
 
 function canAccessYampiBackside()
@@ -77,6 +74,27 @@ function canAccessInnerAnemos()
     if djinn == 72 then
         return Tracker:ProviderCountForCode("teleport")
     else
-        return Tracker:ProviderCountForCode("teleport") * ( ((djinn >= 72) and 1 or 0) + Tracker:ProviderCountForCode("anemos_door"))
+        return Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("anemos_door")
     end
+end
+
+function hasCharacters(num)
+    if Tracker:ProviderCountForCode("sett_boss_logic") == 0 then
+        return 1
+    end
+
+    local characters = Tracker:ProviderCountForCode("character_felix") + Tracker:ProviderCountForCode("character_jenna") + Tracker:ProviderCountForCode("character_sheba") + Tracker:ProviderCountForCode("character_piers") + Tracker:ProviderCountForCode("character_isaac") + Tracker:ProviderCountForCode("character_garret") + Tracker:ProviderCountForCode("character_ivan") + Tracker:ProviderCountForCode("character_mia")
+    if characters >= tonumber(num) then
+        return 1
+    end
+    return 0
+end
+
+function canFightSuperBoss(num)
+    if Tracker:ProviderCountForCode("sett_boss_logic") == 0 then
+        return 1
+    end
+
+    return hasCharacters(8) * hasDjinn(num)
+
 end
