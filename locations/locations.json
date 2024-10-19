@@ -1238,7 +1238,7 @@
 						{
 							"name": "North Screen",
 							"short_name": "North",
-							"access_rules": ["lash","gabomba_statue"],
+							"access_rules": ["lash","gabomba_statue,$neg|sett_hide_yellows,[lash]"],
 							"item_count": 2,
 							"clear_as_group": false,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -1246,14 +1246,14 @@
 						{
 							"name": "North Screen",
 							"short_name": "North",
-							"access_rules": ["lash","gabomba_statue"],
+							"access_rules": ["lash","gabomba_statue,$neg|sett_hide_yellows,[lash]"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,sett_major"]
 						},
 						{
 							"name": "North Screen Cave",
 							"short_name": "Cave",
-							"access_rules": ["lash","gabomba_statue"],
+							"access_rules": ["lash","gabomba_statue,$neg|sett_hide_yellows,[lash]"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
@@ -2634,8 +2634,9 @@
 						},
 						{
 							"name": "Reunion",
-							"access_rules": ["jupiter_lit"],
-							"hosted_item": "reunion"
+							"access_rules": ["jupiter_lit", "{sett_show_captures}"],
+							"capture_item": true,
+							"item_count": 4
 						},
 						{
 							"name": "Salt",
