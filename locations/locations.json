@@ -707,6 +707,12 @@
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
 						{
+							"name": "North Box",
+							"short_name": "Outside N",
+							"item_count": 1,
+							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+						},
+						{
 							"name": "North-East Jar",
 							"short_name": "Outside NE",
 							"access_rules": ["briggs_battle"],
@@ -731,6 +737,40 @@
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
+						{
+							"name": "Briggs Fight",
+							"short_name": "Briggs",
+							"access_rules": ["$hasDjinn|6"],
+							"hosted_item": "briggs_battle"
+						},
+						{
+							"name": "Briggs Jailbreak",
+							"short_name": "Fix Boat",
+							"access_rules": ["briggs_battle,burst,lash,pound"],
+							"hosted_item": "briggs_jailbreak"
+						}
+					],
+					"children": [
+						{ "name": "0xF1D" },
+						{ "name": "0xF1E" },
+						{ "name": "0xF20" },
+						{ "name": "0xF1F" },
+						{ "name": "0xF21" },
+						{ "name": "0xF24" },
+						{ "name": "0xF23" },
+						{ "name": "0x8AB" },
+						{ "name": "0x97F" }
+					]
+				},
+				{
+					"name": "Alhafran Cave",
+					"map_locations": [{
+						"map": "weyard",
+						"x": 5295,
+						"y": 3875
+					}],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "$canSailShip"],
+					"sections": [
 						{
 							"name": "Cave Left Side",
 							"short_name": "Cave Left",
@@ -759,33 +799,13 @@
 							"access_rules": ["briggs_jailbreak"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
-						},
-						{
-							"name": "Briggs Fight",
-							"short_name": "Briggs",
-							"access_rules": ["$hasDjinn|6"],
-							"hosted_item": "briggs_battle"
-						},
-						{
-							"name": "Briggs Jailbreak",
-							"short_name": "Fix Boat",
-							"access_rules": ["briggs_battle,burst,lash,pound"],
-							"hosted_item": "briggs_jailbreak"
 						}
 					],
 					"children": [
-						{ "name": "0xF1D" },
-						{ "name": "0xF1E" },
-						{ "name": "0xF1F" },
-						{ "name": "0xF21" },
-						{ "name": "0xF24" },
-						{ "name": "0xF23" },
 						{ "name": "0xF25,0xF26,0xF27" },
 						{ "name": "0xF8F,0xF90,0xF91" },
 						{ "name": "0xF26" },
-						{ "name": "0xF20" },
-						{ "name": "0x8AB" },
-						{ "name": "0x97F" }
+						{ "name": "0xF8E" }
 					]
 				},
 				{
