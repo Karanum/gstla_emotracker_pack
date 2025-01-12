@@ -2485,7 +2485,7 @@
 				{
 					"name": "South-East Weeds",
 					"short_name": "SE Weeds",
-					"access_rules": ["cyclone"],
+					"access_rules": ["cyclone,growth"],
 					"item_count": 1,
 					"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 				},
