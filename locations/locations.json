@@ -1621,12 +1621,14 @@
 							"name": "1F - Main Room Left",
 							"short_name": "(1F) Main Room",
 							"access_rules": ["frost", "parch"],
+							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "1F - Aquarius Stone",
 							"short_name": "(1F) Aquarius",
+							"capture_item": true,
 							"access_rules": ["frost", "parch"],
 							"item_count": 1
 						},
