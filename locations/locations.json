@@ -390,7 +390,9 @@
 						},
 						{
 							"name": "Char",
-							"access_rules": ["healing_fungus"],
+							"access_rules": ["healing_fungus", "{sett_show_captures}"],
+							"capture_item": true,
+							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_2"
 						}
 					],
