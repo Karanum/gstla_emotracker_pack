@@ -3116,7 +3116,7 @@
 						{
 							"name": "Moapa's House - Barrel",
 							"short_name": "Moapa's House",
-							"access_rules": ["shaman's_rod"],
+							"access_rules": ["shaman's_rod", "$neg|sett_hide_yellows,[shaman's_rod]", "sett_skips_basic"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
