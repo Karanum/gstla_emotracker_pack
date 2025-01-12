@@ -2,9 +2,9 @@
   "name": "Official GS:TLA Rando Tracker",
   "game_name": "Golden Sun: The Lost Age",
   "platform": "gba",
-  "package_version": "1.0.0",
+  "package_version": "1.1.0",
   "package_uid": "gstlar_karanum",
-  "author": "Karanum",
+  "author": "Karanum, neomatamune",
   "variants": {
     "standard": {
       "display_name": "Map Tracker"
