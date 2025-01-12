@@ -1810,7 +1810,7 @@
 						},
 						{
 							"name": "Cloud Brand",
-							"access_rules": ["susa,sand"],
+							"access_rules": ["$neg|sett_hide_yellows,[growth],sand", "growth,sand", "sett_skips_growth,sand"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
