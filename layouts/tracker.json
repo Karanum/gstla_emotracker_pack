@@ -32,6 +32,25 @@
                     ["zagan", "flora", "megaera", "moloch", "ulysses", "eclipse", "haures"],
                     ["coatlicue", "daedalus", "catastrophe", "azul", "charon", "iris"]
                 ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "-0.05,-0.05,-0.05,-0.05",
+                "rows": [
+                            [
+                                "character_felix",
+                                "character_jenna",
+                                "character_sheba",
+                                "character_piers"
+                            ],
+                            [
+                                "character_isaac",
+                                "character_garret",
+                                "character_ivan",
+                                "character_mia"
+                            ]
+                ]
             }
         ]
     },

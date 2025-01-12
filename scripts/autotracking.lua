@@ -159,9 +159,6 @@ local function updateSummons(seg)
 end
 
 local function updateProgression(seg, flag, code)
-    if not isInGame() then
-        return false
-    end
     local state = (seg:ReadUInt8(getFlagAddr(flag)) & getFlagMask(flag)) > 0
     setActive(Tracker:FindObjectForCode(code), state)
 end

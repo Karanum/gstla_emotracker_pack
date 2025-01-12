@@ -390,7 +390,9 @@
 						},
 						{
 							"name": "Char",
-							"access_rules": ["healing_fungus"],
+							"access_rules": ["healing_fungus", "{sett_show_captures}"],
+							"capture_item": true,
+							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_2"
 						}
 					],
@@ -496,7 +498,7 @@
 						{
 							"name": "Breaking Bridges Room",
 							"short_name": "Bridges",
-							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost", "sett_skips_oobeasy"],
+							"access_rules": ["$neg|sett_hide_yellows,[frost],lash", "frost"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -504,7 +506,7 @@
 							"name": "Right Prong",
 							"short_name": "Prong",
 							"access_rules": [
-								"$neg|sett_hide_yellows,[frost],reveal,sea_god's_tear", 
+								"$neg|sett_hide_yellows,[frost],reveal,sea_god's_tear",
 								"frost,reveal,sea_god's_tear",
 								"sett_skips_oobeasy,reveal,sea_god's_tear"
 							],
@@ -705,6 +707,12 @@
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
 						{
+							"name": "North Box",
+							"short_name": "Outside N",
+							"item_count": 1,
+							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+						},
+						{
 							"name": "North-East Jar",
 							"short_name": "Outside NE",
 							"access_rules": ["briggs_battle"],
@@ -729,6 +737,40 @@
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
+						{
+							"name": "Briggs Fight",
+							"short_name": "Briggs",
+							"access_rules": ["$hasDjinn|6"],
+							"hosted_item": "briggs_battle"
+						},
+						{
+							"name": "Briggs Jailbreak",
+							"short_name": "Fix Boat",
+							"access_rules": ["briggs_battle,burst,lash,pound"],
+							"hosted_item": "briggs_jailbreak"
+						}
+					],
+					"children": [
+						{ "name": "0xF1D" },
+						{ "name": "0xF1E" },
+						{ "name": "0xF20" },
+						{ "name": "0xF1F" },
+						{ "name": "0xF21" },
+						{ "name": "0xF24" },
+						{ "name": "0xF23" },
+						{ "name": "0x8AB" },
+						{ "name": "0x97F" }
+					]
+				},
+				{
+					"name": "Alhafran Cave",
+					"map_locations": [{
+						"map": "weyard",
+						"x": 5295,
+						"y": 3875
+					}],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "$canSailShip"],
+					"sections": [
 						{
 							"name": "Cave Left Side",
 							"short_name": "Cave Left",
@@ -757,33 +799,13 @@
 							"access_rules": ["briggs_jailbreak"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
-						},
-						{
-							"name": "Briggs Fight",
-							"short_name": "Briggs",
-							"access_rules": ["$hasDjinn|6"],
-							"hosted_item": "briggs_battle"
-						},
-						{
-							"name": "Briggs Jailbreak",
-							"short_name": "Fix Boat",
-							"access_rules": ["briggs_battle,burst,lash,pound"],
-							"hosted_item": "briggs_jailbreak"
 						}
 					],
 					"children": [
-						{ "name": "0xF1D" },
-						{ "name": "0xF1E" },
-						{ "name": "0xF1F" },
-						{ "name": "0xF21" },
-						{ "name": "0xF24" },
-						{ "name": "0xF23" },
 						{ "name": "0xF25,0xF26,0xF27" },
 						{ "name": "0xF8F,0xF90,0xF91" },
 						{ "name": "0xF26" },
-						{ "name": "0xF20" },
-						{ "name": "0x8AB" },
-						{ "name": "0x97F" }
+						{ "name": "0xF8E" }
 					]
 				},
 				{
@@ -1207,16 +1229,22 @@
 									"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 								},
 								{
-									"name": "Piers",
+									"name": "Piers - Flag",
 									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
 									"hosted_item": "piers"
+								},
+								{
+									"name": "Piers - Item",
+									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
+									"item_count": 1
 								}
 							],
 							"children": [
 								{ "name": "0xF4E" },
 								{ "name": "0xF50" },
 								{ "name": "0xF4F" },
-								{ "name": "0x8F4" }
+								{ "name": "0x8F4" },
+								{ "name": "0xD07" }
 							]
 						}
 					]
@@ -1238,7 +1266,7 @@
 						{
 							"name": "North Screen",
 							"short_name": "North",
-							"access_rules": ["lash","gabomba_statue"],
+							"access_rules": ["lash","gabomba_statue,$neg|sett_hide_yellows,[lash]"],
 							"item_count": 2,
 							"clear_as_group": false,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -1246,14 +1274,14 @@
 						{
 							"name": "North Screen",
 							"short_name": "North",
-							"access_rules": ["lash","gabomba_statue"],
+							"access_rules": ["lash","gabomba_statue,$neg|sett_hide_yellows,[lash]"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,sett_major"]
 						},
 						{
 							"name": "North Screen Cave",
 							"short_name": "Cave",
-							"access_rules": ["lash","gabomba_statue"],
+							"access_rules": ["lash","gabomba_statue,$neg|sett_hide_yellows,[lash]"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
@@ -1599,12 +1627,14 @@
 							"name": "1F - Main Room Left",
 							"short_name": "(1F) Main Room",
 							"access_rules": ["frost", "parch"],
+							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "1F - Aquarius Stone",
 							"short_name": "(1F) Aquarius",
+							"capture_item": true,
 							"access_rules": ["frost", "parch"],
 							"item_count": 1
 						},
@@ -1780,7 +1810,7 @@
 						},
 						{
 							"name": "Cloud Brand",
-							"access_rules": ["susa,sand"],
+							"access_rules": ["$neg|sett_hide_yellows,[growth],sand", "growth,sand", "sett_skips_growth,sand"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -2455,7 +2485,7 @@
 				{
 					"name": "South-East Weeds",
 					"short_name": "SE Weeds",
-					"access_rules": ["cyclone"],
+					"access_rules": ["cyclone,growth"],
 					"item_count": 1,
 					"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 				},
@@ -2633,9 +2663,15 @@
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
 						{
-							"name": "Reunion",
+							"name": "Reunion - Flag",
 							"access_rules": ["jupiter_lit"],
 							"hosted_item": "reunion"
+						},
+						{
+							"name": "Reunion - Items",
+							"access_rules": ["jupiter_lit", "{sett_show_captures}"],
+							"capture_item": true,
+							"item_count": 4
 						},
 						{
 							"name": "Salt",
@@ -2654,6 +2690,7 @@
 						{ "name": "0xFC5" },
 						{ "name": "0xFC7" },
 						{ "name": "0x9D0" },
+						{ "name": "0xD00,0xD01,0xD02,0xD03" },
 						{ "name": "0x3E" },
 						{ "name": "0x67" }
 					]
@@ -3079,7 +3116,7 @@
 						{
 							"name": "Moapa's House - Barrel",
 							"short_name": "Moapa's House",
-							"access_rules": ["shaman's_rod"],
+							"access_rules": ["shaman's_rod", "$neg|sett_hide_yellows,[shaman's_rod]", "sett_skips_basic"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
@@ -3235,7 +3272,7 @@
 						"x": 655,
 						"y": 3375
 					}],
-					"access_rules": ["reunion,hover"],
+					"access_rules": ["$canFlyShip"],
 					"sections": [
 						{
 							"name": "Sunken Item",
