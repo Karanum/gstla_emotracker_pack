@@ -2663,7 +2663,12 @@
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
 						{
-							"name": "Reunion",
+							"name": "Reunion - Flag",
+							"access_rules": ["jupiter_lit"],
+							"hosted_item": "reunion"
+						},
+						{
+							"name": "Reunion - Items",
 							"access_rules": ["jupiter_lit", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 4
@@ -2685,6 +2690,7 @@
 						{ "name": "0xFC5" },
 						{ "name": "0xFC7" },
 						{ "name": "0x9D0" },
+						{ "name": "0xD00,0xD01,0xD02,0xD03" },
 						{ "name": "0x3E" },
 						{ "name": "0x67" }
 					]
