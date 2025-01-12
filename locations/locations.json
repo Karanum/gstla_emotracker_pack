@@ -1229,16 +1229,22 @@
 									"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 								},
 								{
-									"name": "Piers",
+									"name": "Piers - Flag",
 									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
 									"hosted_item": "piers"
+								},
+								{
+									"name": "Piers - Item",
+									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
+									"item_count": 1
 								}
 							],
 							"children": [
 								{ "name": "0xF4E" },
 								{ "name": "0xF50" },
 								{ "name": "0xF4F" },
-								{ "name": "0x8F4" }
+								{ "name": "0x8F4" },
+								{ "name": "0xD07" }
 							]
 						}
 					]
