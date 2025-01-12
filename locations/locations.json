@@ -3272,7 +3272,7 @@
 						"x": 655,
 						"y": 3375
 					}],
-					"access_rules": ["reunion,hover"],
+					"access_rules": ["$canFlyShip"],
 					"sections": [
 						{
 							"name": "Sunken Item",
