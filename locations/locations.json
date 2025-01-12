@@ -498,7 +498,7 @@
 						{
 							"name": "Breaking Bridges Room",
 							"short_name": "Bridges",
-							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost", "sett_skips_oobeasy"],
+							"access_rules": ["$neg|sett_hide_yellows,[frost],lash", "frost"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -506,7 +506,7 @@
 							"name": "Right Prong",
 							"short_name": "Prong",
 							"access_rules": [
-								"$neg|sett_hide_yellows,[frost],reveal,sea_god's_tear", 
+								"$neg|sett_hide_yellows,[frost],reveal,sea_god's_tear",
 								"frost,reveal,sea_god's_tear",
 								"sett_skips_oobeasy,reveal,sea_god's_tear"
 							],
