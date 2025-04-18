@@ -1501,7 +1501,7 @@
 						{
 							"name": "South-East Weeds",
 							"short_name": "SE Weeds",
-							"access_rules": ["cyclone"],
+							"access_rules": ["cyclone,growth"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
 						},
@@ -3136,7 +3136,7 @@
 						{
 							"name": "Trial Road Side Path",
 							"short_name": "Side Path",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover_lift}"],
+							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover,lift}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
