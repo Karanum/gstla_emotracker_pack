@@ -3090,7 +3090,7 @@
 						"x": 1965,
 						"y": 1390
 					}],
-					"access_rules": ["whirlwind"],
+					"access_rules": ["whirlwind", "frost,lift"],
 					"sections": [
 						{
 							"name": "Next to Moapa's House",
@@ -3129,14 +3129,14 @@
 						},
 						{
 							"name": "Sand Wall",
-							"access_rules": ["shaman's_rod"],
+							"access_rules": ["shaman's_rod,whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "Trial Road Side Path",
 							"short_name": "Side Path",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover,lift}"],
+							"access_rules": ["shaman's_rod,hover,lift,reveal,whirlwind", "{sett_show_captures,shaman's_rod,hover,lift,whirlwind}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -3144,7 +3144,7 @@
 						{
 							"name": "Trial Road Cleared",
 							"short_name": "Trial Road",
-							"access_rules": ["$hasDjinn|28,shaman's_rod"],
+							"access_rules": ["$hasDjinn|28,shaman's_rod,whirlwind"],
 							"hosted_item": "trial_road"
 						},
 						{
@@ -3156,7 +3156,7 @@
 						},
 						{
 							"name": "Gasp",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover,lift}"],
+							"access_rules": ["shaman's_rod,hover,lift,reveal,whirlwind", "{sett_show_captures,shaman's_rod,hover,lift,whirlwind}"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_10"
