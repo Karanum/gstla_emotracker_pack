@@ -42,8 +42,12 @@ function canAccessShip()
     return (canSailShip() * (canAccessLemuria() + canAccessWesternSeas())) + (Tracker:ProviderCountForCode("gabomba_statue") * Tracker:ProviderCountForCode("black_crystal"))
 end
 
+function canLightMarsLighthouse()
+    return Tracker:ProviderCountForCode("grind") * Tracker:ProviderCountForCode("burst") * Tracker:ProviderCountForCode("blaze") * Tracker:ProviderCountForCode("reveal") * Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("pound")
+end
+
 function canAccessUpperMars()
-    return Tracker:ProviderCountForCode("grind") * Tracker:ProviderCountForCode("mars_star") * Tracker:ProviderCountForCode("burst") * Tracker:ProviderCountForCode("blaze") * Tracker:ProviderCountForCode("reveal") * Tracker:ProviderCountForCode("teleport") * Tracker:ProviderCountForCode("pound")
+    return Tracker:ProviderCountForCode("mars_star") * ((canLightMarsLighthouse()* Tracker:ProviderCountForCode("mars_lit")) + Tracker:ProviderCountForCode("open_mars"))
 end
 
 function canAccessYampiBackside()

@@ -119,6 +119,28 @@
         ]
 	},
 
+    "tracker_starting_flags": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "2,3",
+                "item_size": 40,
+                "rows": [
+                    [
+                        "lemurian_ship",
+                        "wings_of_anemos",
+                        "anemos_door",
+                        "open_magma",
+                        "open_mars"
+                    ]
+                ]
+            }
+        ]
+    },
+
     "tracker_progression": {
         "type": "array",
         "orientation": "vertical",

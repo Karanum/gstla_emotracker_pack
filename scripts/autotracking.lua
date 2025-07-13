@@ -177,6 +177,7 @@ local function updateProgressionMars(seg) updateProgression(seg, 0xA4B, "mars_li
 local function updateProgressionDoomDragon(seg) updateProgression(seg, 0x778, "doom_dragon") end
 local function updateProgressionAnemosDoor(seg) updateProgression(seg, 0xA8B, "anemos_door") end
 local function updateProgressionAnemosWings(seg) updateProgression(seg, 0x8DF, "wings_of_anemos") end
+local function updateProgressionOpenMagmaRock(seg) updateProgression(seg, 0x9f7, "open_magma") end
 
 local function updateCharactersIsaac(seg) updateProgression(seg, 0x0, "character_isaac") end
 local function updateCharactersGarret(seg) updateProgression(seg, 0x1, "character_garret") end
@@ -387,6 +388,7 @@ local function registerProgressionWatches()
     ScriptHost:AddMemoryWatch("Prog - Doom Dragon", getFlagAddr(0x778), 1, updateProgressionDoomDragon, 2000)
     ScriptHost:AddMemoryWatch("Prog - Anemos Door", getFlagAddr(0xA8B), 1, updateProgressionAnemosDoor, 2000)
     ScriptHost:AddMemoryWatch("Prog - Anemos Wings", getFlagAddr(0x8DF), 1, updateProgressionAnemosWings, 2000)
+    ScriptHost:AddMemoryWatch("Prog - Magma Rock", getFlagAddr(0x9F7), 1, updateProgressionOpenMagmaRock, 2000)
 end
 
 if AUTOTRACKER_TRACK_ITEMS then
