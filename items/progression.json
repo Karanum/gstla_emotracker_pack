@@ -96,5 +96,19 @@
     "img": "images/hosts/wings.png",
     "codes": "wings_of_anemos",
     "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Open Magma",
+    "type": "toggle",
+    "img": "images/hosts/open_magma.png",
+    "codes": "open_magma",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
+  },
+  {
+    "name": "Open Mars",
+    "type": "toggle",
+    "img": "images/hosts/open_mars.png",
+    "codes": "open_mars",
+    "disabled_img_mods": "brightness|0.5,saturation|0"
   }
 ]

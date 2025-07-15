@@ -269,14 +269,12 @@
 						{
 							"map": "weyard",
 							"x": 1660,
-							"y": 3165,
-							"restrict_visibility_rules": ["$canAccessWesternSeas"]
+							"y": 3165
 						},
 						{
 							"map": "weyard",
 							"x": 5965,
-							"y": 2515,
-							"restrict_visibility_rules": ["$canAccessLemuria"]
+							"y": 2515
 						}
 					],
 					"access_rules": ["$canAccessShip"],
@@ -691,7 +689,7 @@
 						"x": 5295,
 						"y": 3795
 					}],
-					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "$canSailShip"],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop", "$canSailShip"],
 					"sections": [
 						{
 							"name": "Reveal Circle",
@@ -769,13 +767,14 @@
 						"x": 5295,
 						"y": 3875
 					}],
-					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "$canSailShip"],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop", "$canSailShip"],
 					"sections": [
 						{
 							"name": "Cave Left Side",
 							"short_name": "Cave Left",
-							"access_rules": ["briggs_battle,tremor,lash,pound", "briggs_jailbreak,lash,pound"],
+							"access_rules": ["briggs_battle,tremor,lash,pound", "briggs_jailbreak,lash,pound", "{sett_show_captures,briggs_battle,tremor,pound}"],
 							"item_count": 3,
+							"capture_items": true,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
@@ -2839,7 +2838,9 @@
 						},
 						{
 							"name": "Whorl",
-							"access_rules": ["hover,reveal,blue_key"],
+							"access_rules": ["{hover,reveal,blue_key,sett_show_captures}", "hover,reveal,blue_key,pound"],
+							"capture_item": true,
+							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_11"
 						}
 					],
@@ -2993,28 +2994,28 @@
 						{
 							"name": "4F - West Side",
 							"short_name": "(4F) West",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "open_magma,burst"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "3F - West Side",
 							"short_name": "(3F) West",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "open_magma,burst"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "2F - Center",
 							"short_name": "(2F) Center",
-							"access_rules": ["burst,growth,lash,whirlwind"],
+							"access_rules": ["burst,growth,lash,whirlwind", "open_magma,burst,whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - North-East Sluice",
 							"short_name": "(2F) North-East",
-							"access_rules": ["burst,growth,lash,whirlwind", "{sett_show_captures,burst,growth,lash}"],
+							"access_rules": ["burst,growth,lash,whirlwind", "{sett_show_captures,burst,growth,lash}", "{sett_show_captures,open_magma}", "open_magma,burst,whirlwind"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -3022,24 +3023,24 @@
 						{
 							"name": "Blaze Tablet",
 							"short_name": "Blaze",
-							"access_rules": ["burst,growth,lash,whirlwind"],
+							"access_rules": ["burst,growth,lash,whirlwind", "open_magma"],
 							"item_count": 1
 						},
 						{
 							"name": "Magma Ball",
 							"short_name": "Meatball",
-							"access_rules": ["burst,growth,lash,whirlwind,[blaze]"],
+							"access_rules": ["burst,growth,lash,whirlwind,[blaze]", "open_magma,[blaze]"],
 							"item_count": 1
 						},
 						{
 							"name": "Reserve Djinni (Mars)",
 							"short_name": "GS1 Mars",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "open_magma,burst"],
 							"hosted_item": "mars_10"
 						},
 						{
 							"name": "Fury",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "open_magma,burst"],
 							"hosted_item": "mars_11"
 						}
 					],
@@ -3090,7 +3091,7 @@
 						"x": 1965,
 						"y": 1390
 					}],
-					"access_rules": ["whirlwind"],
+					"access_rules": ["whirlwind", "lift,frost"],
 					"sections": [
 						{
 							"name": "Next to Moapa's House",
@@ -3129,14 +3130,14 @@
 						},
 						{
 							"name": "Sand Wall",
-							"access_rules": ["shaman's_rod"],
+							"access_rules": ["shaman's_rod,whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
 						},
 						{
 							"name": "Trial Road Side Path",
 							"short_name": "Side Path",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover,lift}"],
+							"access_rules": ["shaman's_rod,whirlwind,hover,lift,reveal", "{sett_show_captures,whirlwind,shaman's_rod,hover_lift}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -3144,7 +3145,7 @@
 						{
 							"name": "Trial Road Cleared",
 							"short_name": "Trial Road",
-							"access_rules": ["$hasDjinn|28,shaman's_rod"],
+							"access_rules": ["$hasDjinn|28,shaman's_rod,whirlwind"],
 							"hosted_item": "trial_road"
 						},
 						{
@@ -3156,7 +3157,7 @@
 						},
 						{
 							"name": "Gasp",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover,lift}"],
+							"access_rules": ["shaman's_rod,whirlwind,hover,lift,reveal", "{sett_show_captures,shaman's_rod,whirlwind,hover,lift}"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_10"
@@ -3185,7 +3186,7 @@
 					"sections": [
 						{
 							"name": "Eddy",
-							"access_rules": ["whirlwind,frost,lift", "{sett_show_captures,whirlwind}"],
+							"access_rules": ["[whirlwind],frost,lift", "{sett_show_captures}"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mercury_7"
@@ -3380,7 +3381,7 @@
 						{
 							"name": "Chest outside Mars Wing",
 							"short_name": "Mars Wing",
-							"access_rules": ["$canAccessUpperMars,mars_lit"],
+							"access_rules": ["$canAccessUpperMars"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -3388,9 +3389,9 @@
 							"name": "Chest inside Jupiter Wing",
 							"short_name": "Jup. Wing",
 							"access_rules": [
-								"$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover]", 
-								"$canAccessUpperMars,mars_lit,cyclone,hover",
-								"$canAccessUpperMars,mars_lit,cyclone,sett_skips_basic"
+								"$neg|sett_hide_yellows,$canAccessUpperMars,cyclone,[sett_skips_basic]",
+								"$canAccessUpperMars,cyclone,reveal,hover",
+								"$canAccessUpperMars,cyclone,sett_skips_basic"
 							],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
@@ -3407,7 +3408,7 @@
 						},
 						{
 							"name": "Fugue",
-							"access_rules": ["mars_lit", "{sett_show_captures,pound}"],
+							"access_rules": ["$canAccessUpperMars,mars_lit", "{sett_show_captures,pound}"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_9"

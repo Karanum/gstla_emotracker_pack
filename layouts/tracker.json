@@ -277,6 +277,17 @@
                                 "type": "layout",
                                 "key": "tracker_characters"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Starting flags",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_starting_flags"
+                            }
                         }
                     ]
                 },
